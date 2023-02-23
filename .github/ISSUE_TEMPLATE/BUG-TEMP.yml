@@ -1,14 +1,14 @@
 name: Bug Report
 description: Report an issue with the Modpack.
 body:
-  - type: input
+ - type: input
   id: version
   attributes:
     label: Modpack version
     placeholder: ex. 0.0.1
   validations:
     required: true
-  - type: textarea
+ - type: textarea
   id: logs
   attributes:
     label: Log Files
