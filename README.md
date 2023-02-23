@@ -1,2 +1,3 @@
 # Shut-1.12.2-Modpack
-This is the place to report all issues with the pack.
+
+*This is an issue tracker for all bugs.*
