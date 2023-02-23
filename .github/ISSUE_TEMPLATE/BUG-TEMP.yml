@@ -1,22 +1,22 @@
 name: Bug Report
 description: Report an issue with the Modpack.
 body:
- - type: input
-  id: version
-  attributes:
-    label: Modpack version
-    placeholder: ex. 0.0.1
-  validations:
-    required: true
- - type: textarea
-  id: logs
-  attributes:
-    label: Log Files
-    description: Link(s) to any log files that may help debug your issue
-    placeholder: https://pste.ch/dotedubine
-  validations:
-    required: false
-- type: textarea
+  - type: input
+    id: version
+    attributes:
+      label: Modpack version
+      placeholder: ex. 0.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Files
+      description: Link(s) to any log files that may help debug your issue
+      placeholder: https://pste.ch/dotedubine
+    validations:
+      required: false
+  - type: textarea
     id: bugdesc
     attributes:
       label: Describe the bug
